@@ -13,6 +13,10 @@ ramenn
 ##　アプリの起動
 '$ python main.py'
 
+# ver 0.11
+リセットボタン修正
+スタートストップ修正
+
 #Install
 以下のコマンドで任意のディレクトリにcloneしてください。
 '$ git clone git@github.com:Hayasakikazunori/ramenn.git
