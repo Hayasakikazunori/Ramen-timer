@@ -37,7 +37,7 @@ class MainForm(PySide.QtGui.QDialog):
             self.is_run = True
 
     def pushResetButton(self):
-        self.initTimer()
+        self.initUI()
         self.updateLCD()
 
     def establishConnection(self):
