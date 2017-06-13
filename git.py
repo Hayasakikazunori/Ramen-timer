@@ -15,7 +15,7 @@ class MainForm(PySide.QtGui.QDialog):
         self.is_run = False
         self.count = 180
         self.timer = PySide.QtCore.QTimer()
-        self.timer.setInterval(600)
+        self.timer.setInterval(1000)
         self.timer.timeout.connect(self.countdown)
         self.ui.LCDTimer.display(self.count)
 
